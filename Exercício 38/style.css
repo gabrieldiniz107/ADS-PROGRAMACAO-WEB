@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 20px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 50px;
+}
