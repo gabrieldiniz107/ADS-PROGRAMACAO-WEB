@@ -1,0 +1,20 @@
+.imagem{
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+}
+
+.imagem__1{
+    width: 200px;
+    height: 200px;
+}
+
+.imagem__2{
+    width: 300px;
+    height: 300px;
+}
+
+.imagem__3{
+    width: 400px;
+    height: 400px;
+}
