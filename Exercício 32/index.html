@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha o país</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Escolha um país</h2>
+    
+        <label>Escolha um país</label>
+        <select name="paises" id="paises">
+            <option id="brasil" value="selecione">Selecione</option>
+            <option id="pais" value="Brasil">Brasil</option>
+            <option id="pais" value="Holanda">Holanda</option>
+            <option id="pais" value="Estados Unidos">Estados Unidos</option>
+            <option id="pais" value="Alemanha">Alemanha</option>
+        </select>
+        <input type="submit" value="Enviar" onclick="enviar()">
+        <br><br>
+        <div id="resposta">
+            
+        </div>
+        <br><br>
+        <input type="submit" value="Limpar" onclick="limpar()">
+    
+</body>
+</html>
